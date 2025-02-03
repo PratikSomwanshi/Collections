@@ -1,6 +1,5 @@
-package stack;
+package List.stack;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -12,7 +11,7 @@ public class StackImpl {
 //
 //    Inheritance: Stack is a subclass of Vector, which
 //    means it inherits all the features of a dynamic
-//    array but is constrained by the stack's LIFO
+//    array but is constrained by the List.stack's LIFO
 //    nature.
 
     public static void main(String[] args) {
@@ -47,7 +46,7 @@ public class StackImpl {
 //        Stack-Specific Methods:
 //        push(E item)
 //
-//        Description: Adds an element to the top of the stack.
+//        Description: Adds an element to the top of the List.stack.
 //
 //                Time Complexity: O(1) amortized (average O(1); worst-case O(n) during resize).
 //
@@ -65,7 +64,7 @@ public class StackImpl {
 //
 //        empty()
 //
-//        Description: Checks if the stack is empty.
+//        Description: Checks if the List.stack is empty.
 //
 //        Time Complexity: O(1) (checks if size == 0).
 //
@@ -114,7 +113,7 @@ public class StackImpl {
 //        Stack-Specific Methods:
 //        push(E item)
 //
-//        Description: Adds an element to the top of the stack.
+//        Description: Adds an element to the top of the List.stack.
 //
 //                Time Complexity: O(1) amortized (average O(1); worst-case O(n) during resize).
 //
@@ -132,7 +131,7 @@ public class StackImpl {
 //
 //        empty()
 //
-//        Description: Checks if the stack is empty.
+//        Description: Checks if the List.stack is empty.
 //
 //        Time Complexity: O(1) (checks if size == 0).
 //

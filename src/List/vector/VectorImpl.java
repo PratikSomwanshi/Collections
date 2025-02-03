@@ -1,4 +1,4 @@
-package vector;
+package List.vector;
 
 import java.util.Vector;
 
@@ -33,7 +33,7 @@ public class VectorImpl {
 //        class. It's generally recommended to use ArrayList in single-threaded environments
 //        due to performance considerations.
 //
-//        Resizing Mechanism: When the current capacity of the vector is exceeded, it doubles
+//        Resizing Mechanism: When the current capacity of the List.vector is exceeded, it doubles
 //        its size by default (or increases by a specific capacity increment if provided).
 //
 //        Random Access: Similar to arrays and ArrayList, Vector allows random access to
@@ -42,15 +42,15 @@ public class VectorImpl {
 
 //        *** Constructors of Vector ***
 //
-//        Vector(): Creates a vector with an initial capacity of 10.
+//        Vector(): Creates a List.vector with an initial capacity of 10.
 //
-//        Vector(int initialCapacity): Creates a vector with a specified initial capacity.
+//        Vector(int initialCapacity): Creates a List.vector with a specified initial capacity.
 //
-//        Vector(int initialCapacity, int capacityIncrement): Creates a vector with an initial
-//        capacity and capacity increment (how much the vector should grow when its capacity
+//        Vector(int initialCapacity, int capacityIncrement): Creates a List.vector with an initial
+//        capacity and capacity increment (how much the List.vector should grow when its capacity
 //        is exceeded).
 //
-//        Vector(Collection <? extends E> c): Creates a vector containing the elements of the
+//        Vector(Collection <? extends E> c): Creates a List.vector containing the elements of the
 //        specified collection.
 
 
@@ -76,10 +76,10 @@ public class VectorImpl {
 //          · set(int index, E element): Replaces the element at the specified index.
 //          · remove(Object o): Removes the first occurrence of the specified element.
 //          . remove(int index): Removes the element at the specified index.
-//          · size(): Returns the number of elements in the vector.
-//          . isEmpty(): Checks if the vector is empty.
-//          . contains(Object o): Checks if the vector contains the specified element.
-//          . clear(): Removes all elements from the vector.
+//          · size(): Returns the number of elements in the List.vector.
+//          . isEmpty(): Checks if the List.vector is empty.
+//          . contains(Object o): Checks if the List.vector contains the specified element.
+//          . clear(): Removes all elements from the List.vector.
 
 
 //        Internal Implementation of Vector
@@ -95,7 +95,7 @@ public class VectorImpl {
 //        Synchronization and Performance
 //
 //        Since Vector methods are synchronized, it ensures that only one
-//        thread can access the vector at a time. This makes it thread-safe
+//        thread can access the List.vector at a time. This makes it thread-safe
 //        but can introduce performance overhead in single-threaded
 //        environments because synchronization adds locking and unlocking
 //        costs.

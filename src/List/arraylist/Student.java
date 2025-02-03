@@ -1,4 +1,4 @@
-package arraylist;
+package List.arraylist;
 
 public class Student {
 
